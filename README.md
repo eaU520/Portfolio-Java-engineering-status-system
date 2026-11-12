@@ -23,7 +23,7 @@ In a terminal/command line in the folder of the main.java, top-level directory
 In a terminal/command line in the top-level directory: #TODO: Start the server perhaps 
 
 ```bash
-javac /path/to/all/java/files
+javac /path/to/all/java/files #TODO: Don't have to recompile Java???
 java /src/main/com/ess/main.java
 ```
 
