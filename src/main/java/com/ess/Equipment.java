@@ -21,6 +21,70 @@ public class Equipment{
         this.totalHours = 0;
     }
 
+    public void setId (int id){
+        this.id = id;
+    }
+
+    public int getId (){
+        return this.id;
+    }
+
+    public void setName (String name){
+        this.name = name;
+    }
+
+    public String getName (String name){
+        return this.name;
+    }
+
+    public void setEquipmentType (EquipmentType type){
+        this.type = type;
+    }
+
+    public EquipmentType getEquipmentType (){
+        return this.type;
+    }
+
+    public void setLocation (String location){
+        this.location = location;
+    }
+
+    public String getLocation (){
+        return this.location;
+    }
+    
+    public void setEquipmentStatus (EquipmentStatus status){
+        this.status = status;
+    }
+
+    public EquipmentStatus getEquipmentStatus (){
+        return this.status;
+    }
+
+    public void setNeedsMaintenance (boolean needsMaintenance){
+        this.needsMaintenance = needsMaintenance;
+    }
+
+    public boolean getNeedsMaintenance (){
+        return this.needsMaintenance;
+    }
+
+    public void setTotalRunningHours (int totalRunningHours) {
+        this.totalRunningHours = totalRunningHours;
+    }
+
+    public int getTotalRunningHours () {
+        return this.totalRunningHours;
+    }
+
+    public void setTotalHours (int totalHours){
+        this.totalHours = totalHours;
+    }
+
+    public int getTotalHours (){
+        return this.totalHours;
+    }
+
     public String toString(){
         StringBuilder sb = new StringBuilder();
         sb.append("");
