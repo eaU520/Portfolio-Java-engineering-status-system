@@ -5,7 +5,7 @@ public class Equipment{
     private int id; //May change to UUID if large enough system
     private String name;
     private EquipmentType type;
-    private String location; //May be a different class
+    private String location; //May be a different class or enum
     private EquipmentStatus status;
     private boolean needsMaintenance;
     private int totalRunningHours;
