@@ -37,5 +37,9 @@ class EquipmentServiceTest{
 
         asserEquals(1, eService.getAllEquipment().size());
 
+        Equipment plc = new Equipment (1, "Main PLC",  EquipmentType.PLC, "Main Building");
+        
+        assertThrows(IllegalArgumentException.class, () -> eService.addEquipment(plc));
+        asserEquals(1, eService.getAllEquipment().size());
     }
 }
